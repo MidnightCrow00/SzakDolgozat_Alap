@@ -100,3 +100,19 @@ export const USERS = [
         jelszo: "", 
     },
 ];
+
+export const TENGER = [
+    { 
+        megnevezes: "",
+        leiras: "", 
+        kep: "", 
+    },
+];
+
+export const TERMEKEK = [
+    { 
+        megnevezes: "",
+        leiras: "", 
+        kep: "", 
+    },
+];
