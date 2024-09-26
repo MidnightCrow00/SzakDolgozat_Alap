@@ -41,7 +41,7 @@ Harcos: 50-100cm
 Óriás: 100-500cm
 Kolosszális: 500 cm felett
 
-Barátságszint: //lényegtelen 
+## Barátságszint: //lényegtelen 
 
 Titokzatos
 Védelmező
@@ -51,7 +51,7 @@ Semleges
 Kihivó 
 Veszélyes
 
-Rang: //lényegtelen
+## Rang: //lényegtelen
 
 Bronz Merülő
 Ezüst Harcos
