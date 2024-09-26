@@ -92,3 +92,11 @@ export const HALAK = [
         rang: "Arany Tengerész", 
     },
 ];
+
+export const USERS = [
+    { 
+        nev: "",
+        email: "", 
+        jelszo: "", 
+    },
+];
