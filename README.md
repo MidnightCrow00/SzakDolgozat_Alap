@@ -21,7 +21,7 @@
 **TESZTELÉS folyamatosan**
 
 
-*BLUB*
+## BLUB
 
 _alkalmazás_
 
@@ -32,3 +32,33 @@ _Publikus felület_
 _Admin felület -> termékek kezelése, rendelések kezelése_
 
 _Funkciók -> ..._
+
+## Méret kategóriák: Öt van: Extra pici, Mini, Harcos, Óriás, Kolosszális  
+
+Extra pici: 0-10cm
+Mini: 10-50cm
+Harcos: 50-100cm
+Óriás: 100-500cm
+Kolosszális: 500 cm felett
+
+Barátságszint: //lényegtelen 
+
+Titokzatos
+Védelmező
+Békés
+Óvatos
+Semleges
+Kihivó 
+Veszélyes
+
+Rang: //lényegtelen
+
+Bronz Merülő
+Ezüst Harcos
+Arany Tengerész
+Gyémánt Zátonyvadász -> Zátonylakó
+Gyémánt Tengerész -> Nyílt tenger
+Gyémánt Mélytengeri Vadász -> Mélytenger
+Platina Vadász
+Rubint
+Emerald 
