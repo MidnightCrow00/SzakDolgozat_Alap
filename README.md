@@ -41,15 +41,11 @@ Harcos: 50-100cm
 Óriás: 100-500cm
 Kolosszális: 500 cm felett
 
-## Barátságszint: //lényegtelen 
+## Faj:
 
-Titokzatos
-Védelmező
-Békés
-Óvatos
-Semleges
-Kihivó 
-Veszélyes
+Cápa
+Bálna
+Gömbhal
 
 ## Rang: //lényegtelen
 

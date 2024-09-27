@@ -18,7 +18,6 @@ export const HALAK = [
         kep: "",
         meret: "Óriás",
         erdekesseg: "A tigriscápák nem válogatnak az ételben! Az ő gyomrában találtak már mindent: tengeri madarakat, gumidarabokat és még rendszámtáblákat is. Ezért gyakran hívják őket „az óceán szemetesének.",
-        baratsagszin:"Kihívó",
         rang: "Ezüst Harcos",
     },
     {
@@ -28,7 +27,6 @@ export const HALAK = [
         kep: "",
         meret: "Óriás",
         erdekesseg: "A pörölycápa különleges feje nemcsak furcsa kinézetet ad neki, de rendkívül érzékeny is. Ezzel képes a homokban rejtőző zsákmányt, például rájákat megtalálni, ami igazi különleges képessége!",
-        baratsagszin:"Óvatos",
         rang: "Platina Vadász",
     },
     { 
@@ -38,7 +36,6 @@ export const HALAK = [
         kep: "", 
         meret: "Harcos", 
         erdekesseg: "A tüskéscápa több mint 100 évig is élhet, így a leghosszabb élettartamú cápák egyike. Hihetetlenül alkalmazkodó, és megtalálható mind a sekély, mind a mélyebb vizekben.", 
-        baratsagszin:"Védelmező", 
         rang: "Arany Tengerész", 
     }, 
     { 
@@ -48,7 +45,6 @@ export const HALAK = [
         kep: "", 
         meret: "Kolosszális", 
         erdekesseg: "Az óriáscápa hatalmas szája ellenére főként planktonnal, apró rákokkal és halakkal táplálkozik. Hihetetlen tény, hogy ilyen hatalmas testhez milyen apró táplálék szükséges. Évente több ezer kilométert is vándorolhat, hogy megtalálja a legjobb táplálkozási helyeket.", 
-        baratsagszin:"Békés", 
         rang: "Gyémánt Tengerész", 
     },
     { 
@@ -58,7 +54,6 @@ export const HALAK = [
         kep: "", 
         meret: "Harcos", 
         erdekesseg: "A feketeúszójú cápák híresek a szociális viselkedésükről, gyakran láthatóak kis csoportokban úszva. Mivel táplálékbázisuk változatos, képesek alkalmazkodni a különböző környezeti feltételekhez.", 
-        baratsagszin:"Kihívó", 
         rang: "Platina Vadász", 
     },
     { 
@@ -68,7 +63,6 @@ export const HALAK = [
         kep: "", 
         meret: "Óriás", 
         erdekesseg: "A tengeri kígyócápák képesek a mély vízben élni, ahol a nyomás és a hőmérséklet eltér a felszíntől. E faj nagyon ritka, és a mélytengeri élőhelyek védelme miatt veszélyeztetetté vált.", 
-        baratsagszin:"Titokzatos", 
         rang: "Gyémánt Mélytengeri Vadász", 
     },
     { 
@@ -78,7 +72,6 @@ export const HALAK = [
         kep: "", 
         meret: "Kolosszális", 
         erdekesseg: "A kék bálna hangja olyan mély és erős, hogy akár 800 kilométerre is elhallatszik! Évente több ezer kilométert tesznek meg, hogy a melegebb vizekben szaporodjanak.", 
-        baratsagszin:"Békés", 
         rang: "Gyémánt Óriás", 
     },
     { 
@@ -88,7 +81,6 @@ export const HALAK = [
         kep: "", 
         meret: "Extra pici", 
         erdekesseg: "A gömbhalak a világ egyik legmérgezőbb halai közé tartoznak. Bőrében és belső szerveikben tetrodotoxint található, amely az emberekre is veszélyes lehet, így a gömbhalaknak természetes védelmük van a ragadozók ellen.", 
-        baratsagszin:"Kihívó", 
         rang: "Arany Tengerész", 
     },
 ];
@@ -97,12 +89,15 @@ export const USERS = [
     { 
         nev: "",
         email: "", 
-        jelszo: "", 
+        jelszo: "",
+        vizi_lények: 1, 
+        kapcoslat:1,
     },
 ];
 
 export const TENGER = [
     { 
+        vizi_lények: 1, 
         megnevezes: "",
         leiras: "", 
         kep: "", 
@@ -112,7 +107,8 @@ export const TENGER = [
 export const TERMEKEK = [
     { 
         megnevezes: "",
-        leiras: "", 
+        db_készleten: 1, 
         kep: "", 
+        egységár: 10000, 
     },
 ];
